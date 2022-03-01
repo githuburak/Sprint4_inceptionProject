@@ -46,7 +46,7 @@ public abstract class BasePage {
     public void navigateTo(String tab) {
 
         String tabLocator = "//a[.='" + tab + "']";
-        BrowserUtils.waitForClickablility(By.xpath(tabLocator), 7);
+        BrowserUtils.waitForClickablility(By.xpath(tabLocator), 5);
         Driver.get().findElement(By.xpath(tabLocator)).click();
 
     }
