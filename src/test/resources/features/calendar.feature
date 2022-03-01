@@ -1,5 +1,6 @@
+@wip
 Feature: Calendar Module Functionality
-  @wip
+
   Background: user should be able to login
     Given the user login with valid credentials
 
