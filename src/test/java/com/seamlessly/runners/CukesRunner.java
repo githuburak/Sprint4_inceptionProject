@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-report.html"},
         features = "src/test/resources/features",
         glue = "com/seamlessly/step_definitions",
-        dryRun = false,
+        dryRun = true,
         tags = "@wip"
 
 )
